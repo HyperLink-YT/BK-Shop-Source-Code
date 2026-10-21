@@ -1,0 +1,187 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rule for images */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rules for header content */
+header {
+	text-align: center;
+	font-size: 3em;
+	color: #373684;
+	height: 345px;
+}
+
+header img {
+	margin: 0 auto;
+	height: auto;
+	padding-top: 15px;
+}
+
+h1 {
+	font-family: Lithos Regular, Verdana, Arial, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+nav {
+	margin: 0 auto;
+	background-color: #e1ad01;
+	width: 100%;
+	overflow: auto;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	font-family: Lithos Regular, Verdana, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+
+.button {
+	background-color: #FED000;
+	border-radius: 15px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	text-shadow: 3px 3px 3px black;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: black;
+	text-shadow: 0px 0px 0px black;
+}
+
+.mainbutton {
+	background-color: #FED000;
+	border-radius: 15px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	text-shadow: 3px 3px 3px black;
+}
+
+.mainbutton:hover {
+	background-color: #fff;
+	color: black;
+	text-shadow: 0px 0px 0px black;
+}
+
+/* Style rules for main content */
+main {
+	margin: 0;
+	padding: 2%;
+	background-color: #e6e6e6;
+	overflow: auto;
+	font-family: Lithos Regular, Verdana, Arial, sans-serif;
+	text-align: center;
+}
+
+main p {
+	font-size: 1.25em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+main a {
+	margin: 0;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+main a:hover {
+	margin: 0;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 0px 20px black;
+}
+
+main img {
+	margin: 0 auto;
+	height: auto;
+	padding: 20px;
+}
+
+main h1 {
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact a {
+	color: #4645a8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.link {
+	text-decoration: none;
+	color: blue;
+}
+
+.link:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	line-height: 25px;   /* within paragraph */
+}
+
+.map {
+	border: 5px solid #e6e6e6;
+	border-radius: 15px;
+}
+
+/* Style rules for footer content */
+footer {
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	font-size: 0.65em;
+	clear: left;
+	font-family: Lithos Regular, Verdana, Arial, sans-serif;
+}
+
+footer a {
+	color: #4645a8;
+	text-decoration: none;
+}
